@@ -6,4 +6,4 @@ COPY target/onlinebookstore-0.0.1-SNAPSHOT.war /onlinebookstore-0.0.1-SNAPSHOT.w
  
 # set the startup command to execute the jar
 CMD ["java", "-jar", "onlinebookstore-0.0.1-SNAPSHOT.war"]
-EXPOSE 80 
+EXPOSE 80
