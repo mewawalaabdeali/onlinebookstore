@@ -2,7 +2,7 @@
 FROM openjdk:8-jre-alpine3.9
  
 # copy the packaged jar file into our docker image
-COPY /onlinebookstore-0.0.1-SNAPSHOT.war /onlinebookstore-0.0.1-SNAPSHOT.war
+COPY target/onlinebookstore-0.0.1-SNAPSHOT.war /onlinebookstore-0.0.1-SNAPSHOT.war
  
 # set the startup command to execute the jar
 CMD ["java", "-jar", "onlinebookstore-0.0.1-SNAPSHOT.war"]
